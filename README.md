@@ -36,7 +36,7 @@ If a different country should be used you can set `PBF_DATA` on build.
 4. Run
 
   ```
-  docker run --restart=always -d -p 8080:8080 --name nominatim-monacco nominatim
+  docker run --restart=always -d -p 8080:8080 --name nominatim-us nominatim
   ```
   If this succeeds, open [http://localhost:8080/](http:/localhost:8080) in a web browser
 # Running
